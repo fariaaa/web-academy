@@ -1,0 +1,41 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  background-color: rgb(0, 0, 0);
+  color: #FFF;
+}
+.topnav{
+  background-color: #f8e8ec;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.topnav a{
+color: blue;
+float: left;
+display: block;
+text-align: center;
+padding: 14px 16px;
+}
+         
+.topnav a:hover{
+  background-color: #fff;
+  color:#000; 
+}
+
+.header{
+  background-color: rgb(32, 32, 32);
+  padding: 25px;
+  text-align: right;
+  color: #e7e4e5;
+}
+
+/*creates 3 equal colums that float next to eachother*/
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  border: 5px solid azure;
+  background-color: dimgrey;
+}

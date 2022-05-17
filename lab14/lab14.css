@@ -1,0 +1,89 @@
+/*creates 3 equal colums that float next to eachother*/
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  border: 5px solid azure;
+  background-color: dimgrey;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float_left;
+  width: 24.99999%;
+}
+
+@media screen and (max-width: 700px) {
+  .responsive {
+    width:49.99999%;
+    margin: 6px 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .responsive {
+    width:100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display:table;
+  clear:both;
+}
+
+div.gallery {
+  border: 1px solid #000;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  padding: 15px;
+  height:auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+  #navlist {
+    position: relative;
+  }
+  
+  #navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+  }
+
+  #navlist li, #navlist a {
+  height: 44px;
+  display: block;
+  }
+
+  #home {
+    left: 0px;
+    width: 46px;
+    background: url('mario.png') 0 0;
+  }
+
+  #prev {
+    left: 63px;
+    width: 43px;
+    background: url('mario.png') -47px 0;
+  }
+
+#next {
+    left: 129px;
+    width: 43px;
+   background: url('mario.png') -91px 0;
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LB 15</title>
+<link href="../../main.css" rel="stylesheet" type="text/css"> 
+  <link href="lab15.css" rel="stylesheet" type="text/css"> 
+  <a href="../">HOME</a>
+<div class="topnav">
+          <a href="../lab1/lab1.html"> lab 1 </a>
+          <a href="../lab2/web3.html"> lab 2 </a>
+          <a href="../lab3/lab3.html"> lab 3 </a>
+          <a href="../lab4/lab4.html"> lab 4 </a>
+          <a href="../lab5/lab5.html"> lab 5 </a>
+          <a href="../lab6/lab6.html"> lab 6 </a>
+          <a href="../lab7/lab7.html"> lab 7 </a>
+          <a href="../lab8/lab8.html"> lab 8 </a>
+          <a href="../lab9/lab9.html"> lab 9 </a>
+          <a href="../lab10/lab10.html"> lab 10 </a>
+          <a href="../lab11/lab11.html"> lab 11 </a>
+          <a href="../lab12/lab12.html"> lab 12 </a>
+          <a href="../lab13/lab13.html"> lab 13 </a>
+          <a href="../lab14/lab14.html"> lab 14 </a>
+          <a href="../lab15/lab15.html"> lab 15 </a>
+          <a href="../lab16/lab16.html"> lab 16 </a>
+          <a href="../lab17/lab17.html"> lab 17 </a>
+          <a href="../lab18/lab18.html"> lab 18 </a>
+          <a href="../lab19/lab19.html"> lab 19 </a>
+          <a href="../lab20/lab20.html"> lab 20 </a>
+</div>
+
+  <div class="header">
+  <h1> Thomas A.Edison HS</h1>
+  <h2> web design academy </h2>
+  <h3> lab 12 </h3>
+  <h4> faria hossain </h4>
+  </div>
+
+  <h1> TEXT CHANGER
+</h1>
+
+<body>
+<div class="wrapper">
+<div class="center">
+
+<button type="button" onClick="textChange()" class="button-property">Change</button>
+<button type="button" onClick="textReset()" class="button-property">Reset</button>
+			<p id="demo">Lorem Ipsum</p>
+		</div>
+	</div>
+
+  <script>
+    function textChange() {
+      document.getElementById("demo").innerHTML="Hope you are having a wonderful day!"
+    }
+    function textReset() {
+      document.getElementById("demo").innerHTML="Lorem Ipsum"
+    }
+  //the two functions above helped with resetting the text and also changing it. Getelementid helped with editing the HTML.
+    //alert ("WARNING") 
+   var mood= prompt ("How was your day?")
+    alert("I heard you are "+mood+"!")
+//This var associated with making the prompt in our webpage. With the prompt there was also a reaction after that the webpage gave which was the alert
+    var x=5; 
+    var y=2;
+    console.log(x);
+    console.log(y);
+  </script>
+
+<style>
+h1 {text-align: center;
+text-decoration: underline;
+   }
+</style>
+  
+</body>
+</html>

@@ -1,0 +1,137 @@
+*{ /* this is known as the CSS universal selectors. It can be used to select any and all types of elements in an HTML page. */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Helvetica",sans-serif;
+}
+
+body { /*this css makes up the background and body */
+  background-color: #ffdbeb; 
+  color: #000;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  position: relative;
+}
+
+.wrapper { /*this is the css which decorates the wrapper div which contains most elements*/
+  display: block;
+  background-color: #ecdae2; 
+  color: white;
+  width: 600px;
+  height: 610px;  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);  
+  padding: 1em;
+  padding-top: 6.5em; 
+  text-align: center;
+  font-size: 16px;
+  outline: #666666 solid 8px; 
+  outline-offset: -17px;
+  overflow: hidden;
+}
+
+h1 { /*this changes color of the h1*/
+  color: #ff759f;
+}
+
+.section_userform { /*this descorates the form and changes color of the text*/
+  display: block; 
+  color: #fff;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.input_label { /* this decorates the questions on the form. "name, email, phone"*/
+  width: 35%;
+  text-align: right;
+  display: inline-block;
+  font-size: 1.5em;
+  color: #ff759f;
+}
+.break {  /*this decorates the break*/
+  display: block;
+  width: 100%;
+  margin: 2em 0;
+}
+.textbox { /*this designed the input class*/
+  width: 50%;
+  height: 1.8em;
+  box-sizing: content-box;
+  background-color: #c4c4c4;
+  border-color: #aeadad;
+  padding-left: 1em;
+  color:white; 
+}
+
+.button { /*This designed the button and the position of it*/
+  display: block;
+  margin: none;
+  margin-top: 2em;
+  padding: 0.5em 2.5em; 
+  text-transform:uppercase;
+  background-color: #ffffff;
+  border-color:#aeadad;
+  color:#aeadad;
+  font-size: 1.3em; 
+  border-width: 4px;
+  border-radius: 3px;
+  border-style: solid;
+  transition: all ease-in-out 200ms;
+}
+
+.button:hover { /*this makes it so when you hover of the button css above it will change color*/
+  background-color: #000;
+  color:#fff; 
+  border-color: #fff;
+  transform: scale(1.05);
+}
+
+.buttonWrapper { /*this button wrapper makes it so the button is displayed in the correct format */
+display: grid;
+justify-content: center;
+}
+
+.section_info { /*this section info decorates the alignment and color*/
+  text-align: center;
+  margin-bottom: 1em;
+  color:#fff;
+}
+.section_info h1 { /*this changes the font size of section info 1*/
+  font-size: 5em;
+}
+
+#line { /*this makes a line in the registration block*/
+  border-color: #000;
+  width:  80%;
+  margin: 0 auto;
+  margin-bottom: 4em;
+}
+
+.result { /*this decorates the results of the submition*/
+  width: 45%;
+  text-align: left;
+  display: inline-block;
+  font-size: 1.5em;
+  color: #fff
+}
+
+.result_label { /*this displays and decorates the result laber. "your name, your email,your phone"*/
+  width: 40%;
+  text-align: right;
+  display: inline-block;
+  font-size: 1.5em;
+  color:#292929;
+}
+
+#before { /*the before helps with displaying the element as a block and making sure the opacity is 1 */
+opacity: 1;
+display: block;
+}
+
+#after{   /*this makes the after div invisible*/
+opacity: 0;
+display: none;
+}

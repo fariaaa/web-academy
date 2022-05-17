@@ -1,0 +1,22 @@
+#movingBox { 
+  background-color: #fff5fb; 
+  border: solid #ffb8cd 3px;
+  color: #e3e3e3;
+   width: 75px; 
+  height: 75px;
+  position: relative;
+  left:200px;
+}
+
+button{
+  color: #ffffff;
+  border: #ffb8cd dashed;
+  background-color: #262626;
+  position: relative;
+  left:100px;
+}
+
+button:hover {
+  border: white;
+  background-color:  #ffb8cd;
+}

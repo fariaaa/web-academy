@@ -1,0 +1,73 @@
+
+
+/*the container dic - needed to position the dropdown content */
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+/*dropdown content (hidden by default)*/
+.dropDownContent{
+  display: none;
+  position: absolute;
+  background-color: deeppink;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 117, 158, 0.603);
+  z-index:1;
+}
+
+.dropdown:hover .dropDownContent{
+display: block;
+}
+/*style the drop down menu*/
+.drpMenu{
+  background-color: white;
+  color:deeppink;
+  padding:16px;
+  marging:10px;
+  font-size: 16px;
+  border:none;
+  cursor:pointer;
+}
+
+.dropdown:hover .drpMenu{
+  background-color: #fff;
+  color: #000;
+}
+
+.dropdown a{
+  padding: 12px 16px;
+  text-decoration: none;
+  display: none; 
+}
+
+.dropdown:hover a{
+display: block;
+background-color: gray;
+color: hotpink;
+border: 0.1px solid white;
+}
+
+.dropdown:hover a:hover{
+  color:black;
+  background-color:FFC9D7;
+  border:1px solid #000;
+  padding: 12px 16px;
+}
+
+.dropdown img{
+border: 10px white; 
+}
+
+.dropdown img:hover{
+
+}
+
+.caption{
+ 
+}
+
+.dropdown:hover img:hover .caption{
+display:block;
+color:white;
+background-color: black;
+}

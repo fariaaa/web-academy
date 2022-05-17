@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>lab 14</title>
+    <link href="lab14.css" rel="stylesheet" type="text/css" />
+     <link href="../../main.css" rel="stylesheet" type="text/css"> 
+      <link rel="icon" type="image/x-icon" href="https://web-academy.fariahossain2.repl.co/lab6/download.png">
+  </head>
+  <body>
+    <a href="../">HOME</a>
+<div class="topnav">
+          <a href="../lab1/lab1.html"> lab 1 </a>
+          <a href="../lab2/web3.html"> lab 2 </a>
+          <a href="../lab3/lab3.html"> lab 3 </a>
+          <a href="../lab4/lab4.html"> lab 4 </a>
+          <a href="../lab5/lab5.html"> lab 5 </a>
+          <a href="../lab6/lab6.html"> lab 6 </a>
+          <a href="../lab7/lab7.html"> lab 7 </a>
+          <a href="../lab8/lab8.html"> lab 8 </a>
+          <a href="../lab9/lab9.html"> lab 9 </a>
+          <a href="../lab10/lab10.html"> lab 10 </a>
+          <a href="../lab11/lab11.html"> lab 11 </a>
+          <a href="../lab12/lab12.html"> lab 12 </a>
+          <a href="../lab13/lab13.html"> lab 13 </a>
+          <a href="../lab14/lab14.html"> lab 14 </a>
+          <a href="../lab15/lab15.html"> lab 15 </a>
+          <a href="../lab16/lab16.html"> lab 16 </a>
+          <a href="../lab17/lab17.html"> lab 17 </a>
+          <a href="../lab18/lab18.html"> lab 18 </a>
+          <a href="../lab19/lab19.html"> lab 19 </a>
+          <a href="../lab20/lab20.html"> lab 20 </a>
+</div>
+
+  <div class="header">
+  <h1> Thomas A.Edison HS</h1>
+  <h2> web design academy </h2>
+  <h3> lab 14 </h3>
+  <h4> faria hossain </h4>
+  </div>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #000;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #000;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+  /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+
+<h2>Responsive Form</h2>
+  <p> resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p> 
+
+  <div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  
+   <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+
+<div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+    </div>
+  </div>
+  </div>
+      
+ <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+     <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+  </div>
+
+    <ul id="navlist">
+  <li id="home"><a href="default.asp"></a></li>
+  <li id="prev"><a href="css_intro.asp"></a></li>
+  <li id="next"><a href="css_syntax.asp"></a></li>
+</ul>
+
+  </body>
+</html>

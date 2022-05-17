@@ -1,0 +1,36 @@
+<!--doctype html-->
+<html>
+	<head>
+		<title> body html document </title>
+	</head>
+	<body>
+	</body>
+	<h1> TAEHS </h1>
+	<h2> web dev. </h2>
+	<h3> 10th grade </h3>
+	<h4> Lab #3 </h6>
+	<h5> learning material </h5>
+	<h6> Faria Hossain </h6>
+	<p> In order to create hyperlinks you have to first start with creating a paragraph(p) or heading (h) amd then add "a href" with an opening then add the link to your website and add a closing. You can add text or an image after. </p>
+
+	</body>
+
+<h3> lab 3 </h3>
+<h6> HYPERLINKS </h6> 
+<h4>by</h4>
+<h5>faria hossain</h5>
+
+<p>explain</p>
+	<a href="http://www.taehs.org"> Click here to visit my HS</a> 
+<br>
+	<a href="http://www.taehs.org"><img src="DeDw8zoW4AEfjQe.jpg" width="250px"></a>
+<br>
+	<h2>
+	<a href="https://www.linkedin.com/feed/?trk=onboarding-landing"> Click here to visit my website </a> 
+
+	</h2>
+<h2>
+	<a href="https://www.linkedin.com/feed/?trk=onboarding-landing">
+	<img src="19806255.jpg" width="250px"></a>
+
+</html>

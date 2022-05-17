@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <a href="../">HOME</a>
+    <link rel="icon" type="image/x-icon" href="https://web-academy.fariahossain2.repl.co/lab6/download.png">
+    <title> LB10 Internal CSS </title>
+<style>
+ 
+  /* * works as uvinversal selector for CSS*/
+*{
+  box-sizing:border-box;
+}
+body{ 
+  background-color: #FFEEF7;
+} 
+.header{
+  background-image:url("https://wallpaperbat.com/img/333028-rain-anime-wallpaper-top-free-rain-anime-background.jpg");
+  width: 100%;
+}
+.topnav{
+  background-color: #FFE2EF;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.topnav a{
+color: blue;
+float: left;
+display: block;
+text-align: center;
+padding: 14px 16px;
+}
+
+.topnav a:hover{
+  background-color: #fff;
+  color:#FFE2EF; 
+}
+
+.header{
+  background-color: rgb(32, 32, 32);
+  padding: 25px;
+  text-align: right;
+  color: #FFE2EF;
+}
+body {
+  color: white;
+}
+
+
+/* the id selector uses the id attribute of an HTML element to select a specific element. The id of an element is unqiue within a page, so thje id selector is used to select one unique element! to select an element with a specific id, write a hash tage character, followed by the id of the element. exmaple the CSS rule below will be applioes to the HTML elemen with id para1*/
+h1, h2, h3 ,h4{
+  text-align: center;
+  color:white;
+}
+ /*a css selector selects HTMl element you want to style. simple selector(elements bases on name, id,class) it can conatin more than one simple selector. between the simple selectors we can include a combinator in CSS:
+ descendant selector(space)
+ child selector (>)
+ adjacent sibling selector (+)
+ general sibling selector (~) */
+
+/* a psuedo class is used to define a special state of an element. for example it can be used to: style an element when a user mouses over it 
+style visited an unvisited links differently
+style an element when it gets focus*/
+.topnav a hover{
+  background-color: #f1f1f1;
+  color:black;
+}
+
+}
+ }
+/*CSS atribute selector: the attribute selectore is used to selesct elements with a specifed attribute.*/
+a[target] {
+  background-color:pink;
+}
+  </style> 
+  </head> 
+  <body>
+      <a href="../">HOME</a>
+    <div class="topnav">
+          <a href="../lab1/lab1.html"> lab 1 </a>
+          <a href="../lab2/web3.html"> lab 2 </a>
+          <a href="../lab3/lab3.html"> lab 3 </a>
+          <a href="../lab4/lab4.html"> lab 4 </a>
+          <a href="../lab5/lab5.html"> lab 5 </a>
+          <a href="../lab6/lab6.html"> lab 6 </a>
+          <a href="../lab7/lab7.html"> lab 7 </a>
+          <a href="../lab8/lab8.html"> lab 8 </a>
+          <a href="../lab9/lab9.html"> lab 9 </a>
+          <a href="../lab10/lab10.html"> lab 10 </a>
+          <a href="../lab11/lab11.html"> lab 11 </a>
+          <a href="../lab12/lab12.html"> lab 12 </a>
+          <a href="../lab13/lab13.html"> lab 13 </a>
+          <a href="../lab14/lab14.html"> lab 14 </a>
+          <a href="../lab15/lab15.html"> lab 15 </a>
+          <a href="../lab16/lab16.html"> lab 16 </a>
+          <a href="../lab17/lab17.html"> lab 17 </a>
+          <a href="../lab18/lab18.html"> lab 18 </a>
+          <a href="../lab19/lab19.html"> lab 19 </a>
+          <a href="../lab20/lab20.html"> lab 20 </a>
+    </div>
+    <img src="designcopy.png" width=100% height="280px">
+    </body>
+<div class="header"> 
+  <h1> Thomas A.Edison HS</h1>
+  <h2> web design academy </h2>
+  <h3> lab 10 internal CSS </h3>
+  <h4> faria hossain <div class="h4">
+  </div>
+  <div id="demoBox">
+    <h1> Faria </h1><h1 id="lname"> Hossain </h1>
+    <h1> 2.9.2022 </h1>
+    </div>
+</body>
